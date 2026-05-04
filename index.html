@@ -8,8 +8,15 @@
 </head>
 <body>
 
-  <!-- NAV (opcional) -->
-  <nav>
+  <!-- BOTÃO MENU (3 risquinhos) -->
+  <div class="menu-btn" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- NAVBAR LATERAL -->
+  <nav id="sidebar">
     <ul>
       <li><a href="#inicio">Início</a></li>
       <li><a href="#sobre">Sobre</a></li>
@@ -21,10 +28,11 @@
 
   <div class="container" id="inicio">
 
-    <!-- Header -->
+    <!-- FOTO + HEADER -->
     <header class="header">
+      <img src="MINHAFOTO.jpg" alt="Foto de Maria" class="foto-perfil">
       <h1>Maria Santos</h1>
-      <p>Estudante de Tecnologia | Engenharia de Computação </p>
+      <p>Estudante de Tecnologia | Desenvolvimento e Soluções Digitais</p>
     </header>
 
     <!-- Sobre -->
@@ -51,40 +59,4 @@
       </div>
 
       <div>
-        <h3>Ferramentas</h3>
-        <p>Visual Studio Code, VirtualBox, Pacote Office</p>
-      </div>
-    </section>
-
-    <!-- Projetos -->
-    <section class="card" id="projetos">
-      <h2>Projetos</h2>
-
-      <div>
-        <h3>Projeto 1 - Página Web</h3>
-        <p>Desenvolvimento de página utilizando HTML e CSS.</p>
-      </div>
-
-      <div>
-        <h3>Projeto 2 - Algoritmos</h3>
-        <p>Exercícios de lógica de programação em Python.</p>
-      </div>
-    </section>
-
-    <!-- Contato -->
-    <section class="card" id="contato">
-      <h2>Contato</h2>
-
-      <p>Email: me6812250@email.com</p>
-      <p><a href ="LinkedIn: www.linkedin.com/in/maria-eduarda-dos-santos-98b356222"> Linkedin </a></p>
-
-      <button>
-        Contato
-        <span></span><span></span><span></span><span></span>
-      </button>
-    </section>
-
-  </div>
-
-</body>
 </html>
